@@ -1,0 +1,70 @@
+/* Navbar styling */
+.navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 20px;
+}
+
+/* Main body styling */
+.main-body {
+  background: linear-gradient(to right, #f0ecff, #FBFCFF);
+  min-height: 100vh; /* Adjusted to full viewport height */
+  padding: 1px 0; /* Added padding for content */
+}
+
+/* Welcome section styling */
+.welcome-section {
+  text-align: center; /* Center align the content */
+  margin-bottom: 50px;
+}
+
+.welcome-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.welcome-section h3 {
+  font-size: 24px;
+  color: #555; /* Adjusted text color */
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 30px; /* Increased bottom margin for spacing */
+}
+
+.form-control-file {
+  border: 1px solid #ced4da; /* Added border for file input */
+  border-radius: 5px;
+  width: 20%;
+  align-items: center;
+}
+
+/* Button styling */
+.btn-primary {
+  font-size: 20px;
+  padding: 10px 20px; /* Increased padding for larger buttons */
+  border-radius: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+  
+  .welcome-section h1 {
+    font-size: 28px;
+  }
+  
+  .welcome-section h3 {
+    font-size: 20px;
+  }
+}
